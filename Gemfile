@@ -52,7 +52,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+gem 'omniauth-studiate', path: '../omniauth-studiate'
 gem 'administrate', '~> 0.10.0'
 gem 'bootstrap', '~> 4.1'
 gem 'data-confirm-modal', '~> 1.6'
@@ -73,3 +73,4 @@ gem 'sidekiq', '~> 5.1'
 gem 'sitemap_generator', '~> 6.0'
 gem 'webpacker', '~> 3.5'
 gem 'whenever', require: false
+gem 'http'

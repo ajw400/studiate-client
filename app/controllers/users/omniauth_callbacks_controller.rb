@@ -17,6 +17,10 @@ module Users
       handle_auth "Github"
     end
 
+    def studiate
+      handle_auth "Studiate"
+    end
+
     private
 
     def handle_auth(kind)

@@ -29,4 +29,8 @@ class Service < ApplicationRecord
   end
 
   def twitter_refresh_token!(token); end
+
+  def studiate_client
+    HTTP.auth("Bearer #{access_token}")
+  end
 end

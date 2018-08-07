@@ -1,8 +1,8 @@
 migration_class =
   if ActiveRecord::VERSION::MAJOR >= 5
-    ActiveRecord::Migration[5.2][4.2]
+    ActiveRecord::Migration[5.1][4.2]
   else
-    ActiveRecord::Migration[5.2]
+    ActiveRecord::Migration[5.1]
   end
 
 class CreateFriendlyIdSlugs < migration_class
